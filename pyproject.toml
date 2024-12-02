@@ -24,7 +24,7 @@
 
 [project]
 name = "pathutil"
-version = ["dynamic"]
+dynamic = ["version"]
 description = "Python pathlib Extended"
 readme = "README.md"
 authors = [
