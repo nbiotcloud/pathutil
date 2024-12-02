@@ -24,7 +24,7 @@
 
 [project]
 name = "pathutil"
-version = "0.2.0"
+version = ["dynamic"]
 description = "Python pathlib Extended"
 readme = "README.md"
 authors = [
@@ -43,6 +43,9 @@ requires-python = ">=3.10.0,<4.0"
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "scm"
 
 [tool.pdm]
 [tool.pdm.dev-dependencies]
